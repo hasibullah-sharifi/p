@@ -1,0 +1,126 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-09-10T11:15:50.960Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2770800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step.definitions.Initializer.beforeHooks(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "first",
+        "description": "",
+        "id": "retail-page;first",
+        "after": [
+          {
+            "result": {
+              "duration": 504200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step.definitions.Initializer.afterHooks(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on Retail website",
+            "match": {
+              "location": "step.definitions.RetailStepDefinition.user_is_on_retail_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User click on MyAccount",
+            "match": {
+              "location": "step.definitions.RetailStepDefinition.user_click_on_my_account()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1507100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User click on Login",
+            "match": {
+              "location": "step.definitions.RetailStepDefinition.user_click_on_login()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enter username \u0027userName\u0027 and password \u0027password’",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027userName\u0027",
+                  "offset": 20
+                }
+              ],
+              "location": "step.definitions.RetailStepDefinition.user_enter_username_and_password_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User click on Login button",
+            "match": {
+              "location": "step.definitions.RetailStepDefinition.user_click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 731100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User should be logged in to MyAccount dashboar",
+            "match": {
+              "location": "step.definitions.RetailStepDefinition.user_should_be_logged_in_to_my_account_dashboar()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@first"
+          }
+        ]
+      }
+    ],
+    "name": "Retail Page",
+    "description": "",
+    "id": "retail-page",
+    "keyword": "Feature",
+    "uri": "classpath:feature/RetailPage.feature",
+    "tags": []
+  }
+]
